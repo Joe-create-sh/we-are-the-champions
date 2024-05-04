@@ -1,0 +1,206 @@
+html, body{
+
+    margin:0;
+    padding:0;
+    background-color: #1B1924;
+    color:#FFF;
+
+}
+
+@media (min-width: 30em){
+
+    body{
+
+
+        background-color: #03045e;
+
+    }
+
+}
+
+.container{
+
+    display:flex;
+    flex-direction: column;
+    margin:0px auto;
+    padding-top: 51px;
+    max-width: 100%;
+    
+}
+
+img{
+
+    height: 90px;
+    width:90px;
+    flex-shrink: 0;
+    margin:0px auto 17px auto;
+
+}
+
+.heading-style{
+
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0 auto;    
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+h1{
+
+    font-size: 25px;
+
+}
+
+h2{
+
+    font-size: 20px;
+
+}
+
+
+textarea{
+
+    
+    width: 282px;
+    height:93px;
+    flex-shrink: 0;
+    border-radius:8px;
+    background:#444059;
+    border:none;
+    margin: 31px auto 15px auto;
+    padding:12px 19px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    resize:none;
+    color:#8F8F8F;
+
+}
+
+.input-container{
+
+    display:flex;
+    justify-content: space-between;
+    width:320px;
+    margin:0 auto;
+    
+}
+
+.input-field{
+
+    width:137px;
+    height:27px;   
+    text-align: center;
+    border-radius: 8px;
+    background-color: #444059;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border:none;
+    padding:6px 8px;
+
+  
+}
+
+button{
+
+    width:320px;
+    height: 61px;
+    margin:15px auto 23px auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border:none;
+    color:#04131C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #28A9F1;
+
+}
+
+button:hover{
+
+    background-color: #f7b801;
+    color:#780116;
+    cursor:pointer;
+    
+}
+
+
+
+.endorsements-container{
+
+    display:flex;
+    flex-direction: column-reverse;
+    margin: 16px auto;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.endorsements-display{
+
+    margin: 0 auto;
+    width:286px;
+    height:auto;
+    background-color: #FFF;
+    color:#1B1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    padding:13px 17px;
+    margin-bottom: 15px;
+    
+}
+
+.endorsements-display:last-child{
+
+    margin-top: 11px;
+
+}
+
+.endorsements-display:hover{
+
+    cursor:pointer;
+
+}
+
+.endorsements-display p:first-of-type{
+
+    font-weight: 700;
+
+}
+
+.endorsements-display p:last-of-type{
+
+    font-weight: 700;
+
+}
+
+.item-from-paragraph{
+
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.like-count{
+
+
+    margin-left: 4px; 
+
+}
+
